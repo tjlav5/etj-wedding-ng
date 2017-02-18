@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<section fxLayout="column">
+  <md-toolbar color="accent">
+    <span>#ETJ</span>
+    <span fxFlex></span>
+    <span fxHide fxShow.md>
+      <button md-button>Details</button>
+      <button md-button>Accomodations</button>
+      <button md-button>R.S.V.P.</button>
+      <button md-button>Registry</button>
+    </span>
+    <button md-icon-button fxShow fxHide.md>
+      <md-icon>menu</md-icon>
+    </button>
+  </md-toolbar>
+  <main fxFlex>
+    <router-outlet></router-outlet>
+  </main>
+</section>

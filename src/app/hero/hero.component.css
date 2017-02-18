@@ -1,0 +1,7 @@
+div {
+  background-color: black;
+  background-image: url('/assets/etj-logo.svg');
+  background-position: 50%;
+  background-size: cover;
+  height: 50vw;
+}
