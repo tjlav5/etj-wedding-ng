@@ -29,7 +29,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    FlexLayoutModule.forRoot(),
+    FlexLayoutModule,
     FormsModule,
     HttpModule,
     MaterialModule.forRoot(),
