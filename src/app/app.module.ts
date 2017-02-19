@@ -11,6 +11,7 @@ import { InvitationComponent } from './invitation/invitation.component';
 import { HeroComponent } from './hero/hero.component';
 import { CountDownComponent } from './count-down/count-down.component';
 import { CoupleBiosComponent } from './couple-bios/couple-bios.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 const appRoutes: Routes = [
   { path: 'invitation', component: InvitationComponent },
@@ -24,6 +25,7 @@ const appRoutes: Routes = [
     HeroComponent,
     CountDownComponent,
     CoupleBiosComponent,
+    CalendarComponent,
   ],
   imports: [
     BrowserModule,
