@@ -5,3 +5,10 @@ html, body, app-root {
   height: 100%;
   margin: 0;
 }
+
+.bg-logo {
+  background-color: black;
+  background-image: url('/assets/etj-logo.svg');
+  background-position: 50%;
+  background-size: cover;
+}

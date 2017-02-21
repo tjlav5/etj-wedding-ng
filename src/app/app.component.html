@@ -2,17 +2,13 @@
   <md-toolbar color="accent">
     <span>#ETJ</span>
     <span fxFlex></span>
-    <span fxHide fxShow.md>
-      <button md-button>Details</button>
-      <button md-button>Accomodations</button>
-      <button md-button>R.S.V.P.</button>
-      <button md-button>Registry</button>
-    </span>
+    <app-navigation fxHide fxShow.md></app-navigation>
     <button md-icon-button fxShow fxHide.md>
       <md-icon>menu</md-icon>
     </button>
   </md-toolbar>
   <main fxFlex>
     <router-outlet></router-outlet>
+    <app-footer></app-footer>
   </main>
 </section>
