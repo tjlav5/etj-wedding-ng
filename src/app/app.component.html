@@ -1,13 +1,13 @@
-<section fxLayout="column">
-  <md-toolbar color="accent">
+<section appTrackScroll (pageYPositionChange)="onPageYChange($event)">
+  <md-toolbar color="accent" [style.background]="headerBackground" [style.color]="headerColor">
     <span>#ETJ</span>
     <span fxFlex></span>
-    <app-navigation fxHide fxShow.md></app-navigation>
-    <button md-icon-button fxShow fxHide.md>
+    <app-navigation fxHide fxShow.gt-sm></app-navigation>
+    <button md-icon-button fxShow fxHide.gt-sm>
       <md-icon>menu</md-icon>
     </button>
   </md-toolbar>
-  <main fxFlex>
+  <main>
     <router-outlet></router-outlet>
     <app-footer></app-footer>
   </main>

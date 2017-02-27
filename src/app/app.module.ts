@@ -20,6 +20,7 @@ import { RsvpComponent } from './rsvp/rsvp.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AccomodationsComponent } from './accomodations/accomodations.component';
+import { TrackScrollDirective } from './track-scroll.directive';
 
 const appRoutes: Routes = [
   { path: 'invitation', component: InvitationComponent },
@@ -38,6 +39,7 @@ const appRoutes: Routes = [
     FooterComponent,
     NavigationComponent,
     AccomodationsComponent,
+    TrackScrollDirective,
   ],
   imports: [
     AgmCoreModule.forRoot({
