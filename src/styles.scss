@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Import theming functions
+@import '~@angular/material/core/theming/theming';
+// Import your custom theme
+@import 'src/theme.scss';
+
+html, body, app-root {
+  background: white !important;
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.bg-logo {
+  background-color: black;
+  background-image: url('/assets/etj-logo.svg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  display: block;
+  border: 2px solid;
+  padding: 0.66rem;
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.button.warn {
+  border-color: mat-color($wedding-app-accent, 600);
+}
+
+.button.warn:hover,
+.button.warn:active,
+.button.warn:focus {
+  background-color: mat-color($wedding-app-accent, 600);
+  color: white;
+}

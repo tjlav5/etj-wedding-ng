@@ -1,0 +1,36 @@
+// Import theming functions
+@import '~@angular/material/core/theming/theming';
+// Import your custom theme
+@import 'src/theme.scss';
+
+:host {
+  display: block;
+  padding: 2rem;
+}
+
+.day, .date {
+  color: mat-color($wedding-app-accent, 600);
+}
+
+.date {
+  font-size: 1.66rem;
+}
+
+md-icon {
+  height: 8rem;
+  width: 8rem;
+}
+
+.button {
+  margin: 1rem;
+}
+
+.button-wrapper {
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+p {
+  max-width: 38rem;
+}

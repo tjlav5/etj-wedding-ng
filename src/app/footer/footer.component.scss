@@ -5,7 +5,6 @@
 
 // Use mat-color to extract individual colors from a palette as necessary.
 :host{
-  background-color: mat-color($candy-app-primary, 900);
-  // border-color: mat-color($candy-app-accent, 900);
+  background-color: mat-color($wedding-app-primary, 900);
   display: block;
 }

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-accomodations',
-  templateUrl: './accomodations.component.html',
-  styleUrls: ['./accomodations.component.scss']
+  selector: 'app-accommodations',
+  templateUrl: './accommodations.component.html',
+  styleUrls: ['./accommodations.component.scss']
 })
-export class AccomodationsComponent implements OnInit {
+export class AccommodationsComponent implements OnInit {
 
   disableDefaultUI: boolean = true
   lat: number = 51.678418;

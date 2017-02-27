@@ -19,7 +19,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { RsvpComponent } from './rsvp/rsvp.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { AccomodationsComponent } from './accomodations/accomodations.component';
+import { AccommodationsComponent } from './accommodations/accommodations.component';
 import { TrackScrollDirective } from './track-scroll.directive';
 
 const appRoutes: Routes = [
@@ -38,7 +38,7 @@ const appRoutes: Routes = [
     RsvpComponent,
     FooterComponent,
     NavigationComponent,
-    AccomodationsComponent,
+    AccommodationsComponent,
     TrackScrollDirective,
   ],
   imports: [

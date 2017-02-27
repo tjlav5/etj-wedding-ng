@@ -1,25 +1,21 @@
-<md-toolbar color="warn">
-  <span fxFlex fxLayoutAlign="center">
-    <md-icon svgIcon="bride-and-groom"></md-icon>
-  </span>
-  <md-toolbar-row fxLayoutAlign="center">
-    <div fxLayout="row">
-      <div fxLayout="column">
-        <span>{{ days }}</span>
-        <span>Days</span>
-      </div>
-      <div fxLayout="column">
-        <span>{{ hours }}</span>
-        <span>Hours</span>
-      </div>
-      <div fxLayout="column">
-        <span>{{ minutes }}</span>
-        <span>Minutes</span>
-      </div>
-      <div fxLayout="column">
-        <span>{{ seconds }}</span>
-        <span>Seconds</span>
-      </div>
-    </div>
-  </md-toolbar-row>
-</md-toolbar>
+<div fxFlex fxLayoutAlign="center">
+  <md-icon svgIcon="bride-and-groom"></md-icon>
+</div>
+<div fxFlex fxLayoutAlign="center">
+  <div fxLayout="column">
+    <span class="value">{{ days }}</span>
+    <span class="label">Day<span *ngIf="days != 1">s</span></span>
+  </div>
+  <div fxLayout="column">
+    <span class="value">{{ hours }}</span>
+    <span class="label">Hour<span *ngIf="hours != 1">s</span></span>
+  </div>
+  <div fxLayout="column">
+    <span class="value">{{ minutes }}</span>
+    <span class="label">Min</span>
+  </div>
+  <div fxLayout="column">
+    <span class="value">{{ seconds }}</span>
+    <span class="label">Sec</span>
+  </div>
+</div>
