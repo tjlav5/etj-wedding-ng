@@ -39,6 +39,7 @@ h1 {
   color: black;
   display: inline-block;
   border: 2px solid;
+  outline: none;
   padding: 1rem 2rem;
   transition: background-color 300ms ease-in-out, color 300ms ease-in-out, border-color 300ms ease-in-out;
 }
@@ -47,7 +48,7 @@ h1 {
   border-color: $coral;
 }
 
-.button.warn:hover:not(disabled),
+.button.warn:hover:not([disabled]),
 .button.warn:active,
 .button.warn:focus {
   background-color: $coral;
@@ -64,6 +65,7 @@ h1 {
 .button.mint:focus {
   background-color: $mint;
   color: white;
+  cursor: pointer;
 }
 
 .button[disabled] {
