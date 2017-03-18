@@ -3,15 +3,15 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#0A55BF;}
-	.st1{fill:#FFFFFF;}
+	.style-hotel-blue0{fill:#0A55BF;}
+	.style-hotel-blue1{fill:#FFFFFF;}
 </style>
 <g>
-	<path class="st0" d="M220.3,126.9c-25.5,0-46.2,20.7-46.2,46.2c0,25.5,46.2,100.2,46.2,100.2s46.2-74.7,46.2-100.2
+	<path class="style-hotel-blue0" d="M220.3,126.9c-25.5,0-46.2,20.7-46.2,46.2c0,25.5,46.2,100.2,46.2,100.2s46.2-74.7,46.2-100.2
 		C266.5,147.6,245.8,126.9,220.3,126.9z"/>
 </g>
 <g>
-	<rect x="199.9" y="159.8" class="st1" width="40.9" height="36.2"/>
-	<polygon class="st1" points="192.7,164.2 220.3,145.3 247.9,164.2 	"/>
+	<rect x="199.9" y="159.8" class="style-hotel-blue1" width="40.9" height="36.2"/>
+	<polygon class="style-hotel-blue1" points="192.7,164.2 220.3,145.3 247.9,164.2 	"/>
 </g>
 </svg>

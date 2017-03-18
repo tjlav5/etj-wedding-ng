@@ -1,15 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import 'src/constants.scss';
 // Import theming functions
 @import '~@angular/material/core/theming/theming';
 // Import your custom theme
 @import 'src/theme.scss';
 
+
 html, body, app-root {
   background: white !important;
   display: block;
+  font-family: $sans-serif;
   height: 100%;
   margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: $serif;
+  font-size: 1.66rem;
+  font-weight: 400;
 }
 
 .bg-logo {
@@ -24,22 +33,44 @@ html, body, app-root {
 }
 
 .button {
+  background: none;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  display: block;
+  display: inline-block;
   border: 2px solid;
-  padding: 0.66rem;
-  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+  padding: 1rem 2rem;
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out, border-color 300ms ease-in-out;
 }
 
 .button.warn {
-  border-color: mat-color($wedding-app-accent, 600);
+  border-color: $coral;
 }
 
-.button.warn:hover,
+.button.warn:hover:not(disabled),
 .button.warn:active,
 .button.warn:focus {
-  background-color: mat-color($wedding-app-accent, 600);
+  background-color: $coral;
   color: white;
+  cursor: pointer;
+}
+
+.button.mint{
+ border-color: $mint;
+}
+
+.button.mint:hover:not([disabled]),
+.button.mint:active,
+.button.mint:focus {
+  background-color: $mint;
+  color: white;
+}
+
+.button[disabled] {
+  color: #e2e2e2;
+  border-color: #e2e2e2;
+
+  &:hover {
+    cursor: not-allowed;
+  }
 }

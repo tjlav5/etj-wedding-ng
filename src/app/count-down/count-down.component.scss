@@ -1,13 +1,17 @@
+@import 'src/constants.scss';
+
 // Import theming functions
 @import '~@angular/material/core/theming/theming';
 // Import your custom theme
 @import 'src/theme.scss';
 
+$primary-color: $mint;
+
 
 :host {
   color: white;
   display: block;
-  background-color: mat-color($wedding-app-warn, 600);
+  background-color: $primary-color;
   padding: 2rem;
 }
 
@@ -25,8 +29,10 @@ md-icon {
 
 .value {
   font-size: 1.66rem;
+  font-family: $sans-serif;
 }
 
 .label {
   font-size: 1rem;
+  font-family: $serif;
 }

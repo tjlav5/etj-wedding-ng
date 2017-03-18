@@ -3,26 +3,26 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 96 148" style="enable-background:new 0 0 96 148;" xml:space="preserve">
 <style type="text/css">
-	.st0{display:none;}
-	.st1{display:inline;}
-	.st2{fill:#FC5966;}
-	.st3{fill:#FFFFFF;}
+	.style-star-tourist0{display:none;}
+	.style-star-tourist1{display:inline;}
+	.style-star-tourist2{fill:#FC5966;}
+	.style-star-tourist3{fill:#FFFFFF;}
 </style>
-<g id="Layer_1" class="st0">
-	<g class="st1">
+<g id="Layer_1" class="style-star-tourist0">
+	<g class="style-star-tourist1">
 		<g>
-			<path class="st2" d="M49.2,0.9C23.7,0.9,3,21.6,3,47.1s46.2,100.2,46.2,100.2S95.3,72.5,95.3,47S74.7,0.9,49.2,0.9z"/>
+			<path class="style-star-tourist2" d="M49.2,0.9C23.7,0.9,3,21.6,3,47.1s46.2,100.2,46.2,100.2S95.3,72.5,95.3,47S74.7,0.9,49.2,0.9z"/>
 		</g>
-		<path class="st3" d="M73.2,32.7c-11.5-22.1-24.1,5.9-24.1,5.9l0,0c0,0-13.5-27.2-24.2-5.4C15.2,53,43.6,75,49.6,79.3l0,0
+		<path class="style-star-tourist3" d="M73.2,32.7c-11.5-22.1-24.1,5.9-24.1,5.9l0,0c0,0-13.5-27.2-24.2-5.4C15.2,53,43.6,75,49.6,79.3l0,0
 			C55.5,74.8,83.5,52.3,73.2,32.7z"/>
 	</g>
 </g>
 <g id="Layer_2">
 	<g>
 		<g>
-			<path class="st2" d="M49.2,0.9C23.7,0.9,3,21.6,3,47.1s46.2,100.2,46.2,100.2S95.3,72.5,95.3,47S74.7,0.9,49.2,0.9z"/>
+			<path class="style-star-tourist2" d="M49.2,0.9C23.7,0.9,3,21.6,3,47.1s46.2,100.2,46.2,100.2S95.3,72.5,95.3,47S74.7,0.9,49.2,0.9z"/>
 		</g>
-		<polygon class="st3" points="48.2,16.3 57.5,35.2 78.3,38.2 63.2,52.9 66.8,73.7 48.2,63.9 29.5,73.7 33,52.9 18,38.2 38.8,35.2 
+		<polygon class="style-star-tourist3" points="48.2,16.3 57.5,35.2 78.3,38.2 63.2,52.9 66.8,73.7 48.2,63.9 29.5,73.7 33,52.9 18,38.2 38.8,35.2 
 					"/>
 	</g>
 </g>

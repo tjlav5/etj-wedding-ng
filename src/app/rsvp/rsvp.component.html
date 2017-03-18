@@ -24,8 +24,10 @@
         <md-input-container>
           <textarea mdInput placeholder="Message" [(ngModel)]="model.message" name="message">1600 Amphitheatre Pkwy</textarea>
         </md-input-container>
-        <button md-button (click)="onSubmitYes()" [disabled]="!rsvpForm.form.valid">Yes, I'm coming!</button>
-        <button md-button (click)="onSubmitNo()" [disabled]="!rsvpForm.form.valid" color="warn">Cannot attend :(</button>
+        <div fxLayout="row" fxLayoutGap="10px">
+          <button fxFlex="auto" (click)="onSubmitYes()" [disabled]="!rsvpForm.form.valid" class="button mint">Yes, I'm coming!</button>
+          <button fxFlex="auto" (click)="onSubmitNo()" [disabled]="!rsvpForm.form.valid" class="button mint">Cannot attend :(</button>
+        </div>
       </form>
     </div>
 

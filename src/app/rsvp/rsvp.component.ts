@@ -7,7 +7,7 @@ import { Rsvp } from './rsvp';
 @Component({
   selector: 'app-rsvp',
   templateUrl: './rsvp.component.html',
-  styleUrls: ['./rsvp.component.css']
+  styleUrls: ['./rsvp.component.scss']
 })
 export class RsvpComponent {
   rsvps: FirebaseListObservable<any>

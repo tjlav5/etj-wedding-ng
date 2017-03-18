@@ -1,0 +1,19 @@
+@import 'src/constants';
+
+section {
+  height: 100%;
+  overflow-y: auto;
+}
+
+md-toolbar {
+  box-shadow: 0 0 6px 1px black;
+  position: fixed;
+}
+
+.logo {
+  font-family: $sans-serif;
+}
+
+
+
+

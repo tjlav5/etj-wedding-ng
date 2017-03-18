@@ -1,19 +1,28 @@
+@import 'src/constants';
+
 // Import theming functions
 @import '~@angular/material/core/theming/theming';
 // Import your custom theme
 @import 'src/theme.scss';
 
+$primary-color: $coral;
+
 :host {
   display: block;
   padding: 2rem;
+  font-family: $sans-serif;
 }
 
 .day, .date {
-  color: mat-color($wedding-app-accent, 600);
+  color: $primary-color;
 }
 
 .date {
   font-size: 1.66rem;
+}
+
+.day, .uppercase, .date {
+  font-family: $serif;
 }
 
 md-icon {
@@ -32,5 +41,5 @@ md-icon {
 }
 
 p {
-  max-width: 38rem;
+  max-width: $max-width;
 }

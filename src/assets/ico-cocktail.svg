@@ -3,24 +3,24 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#1A1818;}
-	.st1{fill:#FC5966;}
-	.st2{fill:#FFFFFF;}
+	.style-cocktail0{fill:#1A1818;}
+	.style-cocktail1{fill:#FC5966;}
+	.style-cocktail2{fill:#FFFFFF;}
 </style>
-<circle class="st0" cx="199.4" cy="190.5" r="117"/>
+<circle class="style-cocktail0" cx="199.4" cy="190.5" r="117"/>
 <g>
 	<g>
-		<path class="st1" d="M148.7,153.8c8.5,19.6,28,33.3,50.7,33.3c21,0,39.3-11.7,48.6-29c0.4-1.4,0.7-2.8,1-4.3H148.7z"/>
+		<path class="style-cocktail1" d="M148.7,153.8c8.5,19.6,28,33.3,50.7,33.3c21,0,39.3-11.7,48.6-29c0.4-1.4,0.7-2.8,1-4.3H148.7z"/>
 	</g>
 	<g>
-		<path class="st2" d="M199.4,192.1c-33.2,0-60.3-27-60.3-60.3v-5h120.6v5C259.7,165,232.7,192.1,199.4,192.1z M149.4,136.8
+		<path class="style-cocktail2" d="M199.4,192.1c-33.2,0-60.3-27-60.3-60.3v-5h120.6v5C259.7,165,232.7,192.1,199.4,192.1z M149.4,136.8
 			c2.5,25.4,24,45.3,50,45.3s47.5-19.9,50-45.3H149.4z"/>
 	</g>
 	<g>
-		<path class="st2" d="M167.2,254.1c0-11,14.4-20,32.3-20c17.8,0,32.3,9,32.3,20H167.2z"/>
+		<path class="style-cocktail2" d="M167.2,254.1c0-11,14.4-20,32.3-20c17.8,0,32.3,9,32.3,20H167.2z"/>
 	</g>
 	<g>
-		<rect x="194.4" y="188.5" class="st2" width="10" height="52.6"/>
+		<rect x="194.4" y="188.5" class="style-cocktail2" width="10" height="52.6"/>
 	</g>
 </g>
 </svg>

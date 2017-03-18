@@ -1,0 +1,44 @@
+@import 'src/constants';
+
+$primary-color: $mint;
+
+:host {
+  background-image: url('/assets/pattern-dots.svg');
+  background-size: 600px;
+  display: block;
+  font-family: $sans-serif;
+}
+
+.container {
+  color: black;
+  background: white;
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: $max-width;
+}
+
+@media('min-width: 600px') {
+  .container {
+    padding: 1rem 8rem;
+  }
+}
+
+h1 {
+  color: $primary-color;
+  font-family: $serif;
+}
+
+md-input-container {
+  width: 100%;
+}
+
+
+md-icon {
+  height: 8rem;
+  width: 8rem;
+}
+
+.button {
+  padding: 1rem;
+}
