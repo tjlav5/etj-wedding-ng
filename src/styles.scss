@@ -21,6 +21,10 @@ h1 {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
 .bg-logo {
   background-color: black;
   background-image: url('/assets/etj-logo.svg');
@@ -64,6 +68,18 @@ h1 {
 .button.mint:active,
 .button.mint:focus {
   background-color: $mint;
+  color: white;
+  cursor: pointer;
+}
+
+.button.black {
+ border-color: #1a1818;
+}
+
+.button.black:hover:not([disabled]),
+.button.black:active,
+.button.black:focus {
+  background-color: #1a1818;
   color: white;
   cursor: pointer;
 }

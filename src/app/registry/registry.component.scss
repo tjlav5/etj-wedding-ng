@@ -1,0 +1,15 @@
+@import 'src/constants';
+
+$primary-color: $mint;
+
+:host {
+  display: block;
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, a {
+  color: $primary-color;
+}

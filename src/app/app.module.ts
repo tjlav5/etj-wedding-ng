@@ -6,7 +6,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { RouterModule, Routes} from '@angular/router';
-import { AgmCoreModule } from 'angular2-google-maps/core';
 
 import { environment } from '../environments/environment';
 
@@ -21,6 +20,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AccommodationsComponent } from './accommodations/accommodations.component';
 import { TrackScrollDirective } from './track-scroll.directive';
+import { RegistryComponent } from './registry/registry.component';
 
 const appRoutes: Routes = [
   { path: 'invitation', component: InvitationComponent },
@@ -40,11 +40,9 @@ const appRoutes: Routes = [
     NavigationComponent,
     AccommodationsComponent,
     TrackScrollDirective,
+    RegistryComponent,
   ],
   imports: [
-    AgmCoreModule.forRoot({
-      apiKey: environment.mapKey
-    }),
     AngularFireModule.initializeApp(environment.firebase),
     BrowserModule,
     FlexLayoutModule,

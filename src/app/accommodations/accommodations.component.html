@@ -1,3 +1,37 @@
-<sebm-google-map [mapDraggable]="'false'" [disableDefaultUI]="disableDefaultUI" [latitude]="lat" [longitude]="lng">
-</sebm-google-map>
-
+<div class="hero">
+  <h1>ACCOMMODATIONS / TRAVEL</h1>
+  <p>The Paper Factory Hotel is under 10 mins drive to the wedding venue in Long Island City, Queens.  It is located directly across the river from Manhattan's Upper East Side and just a train ride or short cab ride to The Empire State Building, Rockefeller Center, Times Square and Broadway if you’re up for some sightseeing during your stay.</p>
+</div>
+<div class="map-container" fxLayout="column" fxLayout.gt-md="row">
+  <div>
+    <md-icon svgIcon="marker:hotel"></md-icon>
+    <address>
+      <h3>PAPER FACTORY HOTEL</h3>
+      <span>37-06 36th Street</span>
+      <span>Long Island City, New York</span>
+    </address>
+    <p>
+    We have reserved a block of rooms for guests, click the BOOK NOW button for our reduced rate. Please book as soon as possible, rooms must be booked before 06/22/2017. These rooms should not sell out, if you have any problems, please email us, and we will help you book the room.
+    </p>
+    <button class="button black">
+      BOOK NOW
+    </button>
+  </div>
+  <img [src]="src"/>
+  <div>
+    <md-icon svgIcon="marker:venue"></md-icon>
+    <address>
+      <h3>PAPER FACTORY HOTEL</h3>
+      <span>37-06 36th Street</span>
+      <span>Long Island City, New York</span>
+    </address>
+    <p>
+    We have reserved a block of rooms for guests, click the BOOK NOW button for our reduced rate. Please book as soon as possible, rooms must be booked before 06/22/2017. These rooms should not sell out, if you have any problems, please email us, and we will help you book the room.
+    </p>
+  </div>
+</div>
+<div class="direction-container">
+  <a class="button black">JFK to Hotel</a>
+  <a class="button black">Laguardia to Hotel</a>
+  <a class="button black">Newark to Hotel</a>
+</div>
