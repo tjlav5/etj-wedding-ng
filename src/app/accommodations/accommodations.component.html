@@ -3,7 +3,7 @@
   <p>The Paper Factory Hotel is under 10 mins drive to the wedding venue in Long Island City, Queens.  It is located directly across the river from Manhattan's Upper East Side and just a train ride or short cab ride to The Empire State Building, Rockefeller Center, Times Square and Broadway if you’re up for some sightseeing during your stay.</p>
 </div>
 <div class="map-container" fxLayout="column" fxLayout.gt-md="row">
-  <div>
+  <div fxFlex>
     <md-icon svgIcon="marker:hotel"></md-icon>
     <address>
       <h3>PAPER FACTORY HOTEL</h3>
@@ -17,16 +17,17 @@
       BOOK NOW
     </button>
   </div>
-  <img [src]="src"/>
-  <div>
+  <div class="map" [ngStyle]="{ 'background-image': src }" fxFlex></div>
+  <div fxFlex>
     <md-icon svgIcon="marker:venue"></md-icon>
     <address>
-      <h3>PAPER FACTORY HOTEL</h3>
-      <span>37-06 36th Street</span>
+      <h3>METROPOLITAN BUILDING</h3>
+      <span>44-01 11th Street, 2nd Floor</span>
       <span>Long Island City, New York</span>
     </address>
     <p>
-    We have reserved a block of rooms for guests, click the BOOK NOW button for our reduced rate. Please book as soon as possible, rooms must be booked before 06/22/2017. These rooms should not sell out, if you have any problems, please email us, and we will help you book the room.
+A 10 minute drive from the Paper Factory Hotel, the wedding venue is an older brick loft building, and will have a sign outside with our names.  
+We will have someone available to help anyone needing elevator access to the venue.
     </p>
   </div>
 </div>

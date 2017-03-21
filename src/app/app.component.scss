@@ -5,9 +5,22 @@ section {
   overflow-y: auto;
 }
 
-md-toolbar {
+.toolbar {
   box-shadow: 0 0 6px 1px black;
+  letter-spacing: 2px;
   position: fixed;
+  width: 100%;
+  transform: translateZ(0);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $max-width * 1.5;
+  padding: 0.666rem 2rem;
+  width: 100%;
+}
+
+.container {
 }
 
 .logo {

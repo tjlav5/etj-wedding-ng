@@ -92,3 +92,33 @@ a {
     cursor: not-allowed;
   }
 }
+
+md-icon.logo g{
+  animation: kaboom 2s ease alternate infinite;
+  &:nth-of-type(2) {
+    animation-delay: 0.1s;
+  }
+  &:nth-of-type(3) {
+    animation-delay: 0.2s;
+  }
+  &:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+  &:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+}
+@keyframes kaboom {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(5%, 5%);
+  }
+  90% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

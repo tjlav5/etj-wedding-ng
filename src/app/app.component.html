@@ -1,12 +1,17 @@
 <section appTrackScroll (pageYPositionChange)="onPageYChange($event)">
-  <md-toolbar color="accent" [style.background]="headerBackground" [style.color]="headerColor">
-    <span class="logo">#ETJ</span>
-    <span fxFlex></span>
-    <app-navigation fxHide fxShow.gt-sm></app-navigation>
-    <button md-icon-button fxShow fxHide.gt-sm>
-      <md-icon>menu</md-icon>
-    </button>
-  </md-toolbar>
+  <span class="toolbar" [style.background]="headerBackground" [style.color]="headerColor">
+      <span class="container" fxFlex fxLayoutAlign="space-between center">
+        <span>
+          <span class="logo">#ETJ</span>
+        </span>
+        <span>
+          <app-navigation fxHide fxShow.gt-sm></app-navigation>
+          <button md-icon-button fxShow fxHide.gt-sm>
+            <md-icon>menu</md-icon>
+          </button>
+        </span>
+      </span>
+  </span>
   <main>
     <router-outlet></router-outlet>
     <app-footer></app-footer>
