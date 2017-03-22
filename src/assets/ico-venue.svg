@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 96 148" style="enable-background:new 0 0 96 148;" xml:space="preserve">
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.style-venue0{fill:#FC5966;}
-	.style-venue1{fill:#FFFFFF;}
-	.style-venue2{display:none;}
-	.style-venue3{display:inline;}
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#0A55BF;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#FC5966;}
 </style>
-<g id="Layer_1">
-	<g>
-		<g>
-			<path class="style-venue0" d="M49.2,0.9C23.7,0.9,3,21.6,3,47.1s46.2,100.2,46.2,100.2S95.3,72.5,95.3,47S74.7,0.9,49.2,0.9z"/>
-		</g>
-		<path class="style-venue1" d="M73.2,32.7c-11.5-22.1-24.1,5.9-24.1,5.9l0,0c0,0-13.5-27.2-24.2-5.4C15.2,53,43.6,75,49.6,79.3l0,0
-			C55.5,74.8,83.5,52.3,73.2,32.7z"/>
+<g id="Layer_1" class="st0">
+	<g class="st1">
+		<path class="st2" d="M198.2,0C128.5,0,72,56.5,72,126.2s126.2,273.6,126.2,273.6s126.2-204,126.2-273.6S267.8,0,198.2,0z"/>
+	</g>
+	<g class="st1">
+		<rect x="142.5" y="89.8" class="st3" width="111.7" height="98.9"/>
+		<polygon class="st3" points="122.8,101.9 198.2,50.2 273.5,101.9 		"/>
 	</g>
 </g>
-<g id="Layer_2" class="style-venue2">
-	<g class="style-venue3">
+<g id="Layer_2">
+	<g>
 		<g>
-			<path class="style-venue0" d="M49.2,0.9C23.7,0.9,3,21.6,3,47.1s46.2,100.2,46.2,100.2S95.3,72.5,95.3,47S74.7,0.9,49.2,0.9z"/>
+			<path class="st4" d="M198.2,0C128.5,0,72,56.5,72,126.2s126.2,273.6,126.2,273.6s126.2-204,126.2-273.6S267.8,0,198.2,0z"/>
 		</g>
-		<polygon class="style-venue1" points="48.2,16.3 57.5,35.2 78.3,38.2 63.2,52.9 66.8,73.7 48.2,63.9 29.5,73.7 33,52.9 18,38.2 38.8,35.2 
-					"/>
+		<path class="st3" d="M264,86.8c-31.4-60.4-65.8,16.1-65.8,16.1l0,0c0,0-36.9-74.3-66.1-14.7c-26.5,54.1,51.1,114.2,67.5,126.2l0,0
+			C215.4,202.1,291.8,140.4,264,86.8z"/>
 	</g>
 </g>
 </svg>
