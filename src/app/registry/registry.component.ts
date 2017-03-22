@@ -11,7 +11,7 @@ export class RegistryComponent implements OnInit {
 
   constructor(iconRegistry: MdIconRegistry, sanitizer: DomSanitizer) {
     iconRegistry.addSvgIcon('registry',
-                            sanitizer.bypassSecurityTrustResourceUrl('/assets/ico-present.svg'));
+                            sanitizer.bypassSecurityTrustResourceUrl('/assets/ico-registry.svg'));
   }
 
   ngOnInit() {

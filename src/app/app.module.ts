@@ -9,7 +9,7 @@ import { RouterModule, Routes} from '@angular/router';
 
 import { environment } from '../environments/environment';
 
-import { AppComponent } from './app.component';
+import { AppComponent, NavigationDialog } from './app.component';
 import { InvitationComponent } from './invitation/invitation.component';
 import { HeroComponent } from './hero/hero.component';
 import { CountDownComponent } from './count-down/count-down.component';
@@ -41,6 +41,7 @@ const appRoutes: Routes = [
     AccommodationsComponent,
     TrackScrollDirective,
     RegistryComponent,
+    NavigationDialog,
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebase),
@@ -52,6 +53,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
+  entryComponents: [NavigationDialog],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
