@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero" fxLayout="column" fxLayoutAlign="center center">
   <h1>ACCOMMODATIONS / TRAVEL</h1>
   <p>The Paper Factory Hotel is under 10 mins drive to the wedding venue in Long Island City, Queens.  It is located directly across the river from Manhattan's Upper East Side and just a train ride or short cab ride to The Empire State Building, Rockefeller Center, Times Square and Broadway if you’re up for some sightseeing during your stay.</p>
 </div>
@@ -13,9 +13,9 @@
     <p>
     We have reserved a block of rooms for guests, click the BOOK NOW button for our reduced rate. Please book as soon as possible, rooms must be booked before 06/22/2017. These rooms should not sell out, if you have any problems, please email us, and we will help you book the room.
     </p>
-    <button class="button black">
+    <a class="button white">
       BOOK NOW
-    </button>
+    </a>
   </div>
   <div class="map" [ngStyle]="{ 'background-image': src }" fxFlex></div>
   <div fxFlex>
@@ -31,8 +31,8 @@ We will have someone available to help anyone needing elevator access to the ven
     </p>
   </div>
 </div>
-<div class="direction-container">
-  <a class="button black">JFK to Hotel</a>
-  <a class="button black">Laguardia to Hotel</a>
-  <a class="button black">Newark to Hotel</a>
+<div class="direction-container" fxLayout="column" fxLayout.gt-sm="row" fxLayoutAlign="center center" fxLayoutGap="20px">
+  <a class="button black small">JFK to Hotel</a>
+  <a class="button black small">LGA to Hotel</a>
+  <a class="button black small">Newark to Hotel</a>
 </div>

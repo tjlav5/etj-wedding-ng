@@ -10,14 +10,33 @@ html, body, app-root {
   background: white !important;
   display: block;
   font-family: $sans-serif;
+  font-size: 20px;
   height: 100%;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+span, p, div, button {
+  font-weight: 300;
+}
+
+p {
+  line-height: 1.666rem;
+  max-width: $max-width / 1.5;
+  text-align: center;
 }
 
 h1 {
   margin: 0;
   font-family: $serif;
   font-size: 1.66rem;
+}
+
+h3 {
+  font-size: 1.3rem;
   font-weight: 400;
 }
 
@@ -38,6 +57,7 @@ a {
 
 .button {
   background: none;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
@@ -72,15 +92,34 @@ a {
   cursor: pointer;
 }
 
+.button.white {
+  background-color: white;
+  border-color: #1a1818;
+}
+
+.button.white:hover:not([disabled]),
+.button.white:active,
+.button.white:focus {
+  background-color: #1a1818;
+  color: white;
+  cursor: pointer;
+}
+
+.button.small {
+  padding: 0.6rem 2rem;
+}
+
 .button.black {
- border-color: #1a1818;
+  color: white;
+  border-color: white;
 }
 
 .button.black:hover:not([disabled]),
 .button.black:active,
 .button.black:focus {
-  background-color: #1a1818;
   color: white;
+  background-color: #1a1818;
+  border-color: #1a1818;
   cursor: pointer;
 }
 

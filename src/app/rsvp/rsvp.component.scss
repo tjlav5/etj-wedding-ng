@@ -13,14 +13,14 @@ $primary-color: $mint;
   color: black;
   background: white;
   box-sizing: border-box;
-  margin: 1rem;
+  margin: 4rem 1rem;
   padding: 1rem;
   max-width: $max-width;
 }
 
 @media('min-width: 600px') {
   .container {
-    padding: 1rem 8rem;
+    padding: 3rem 8rem;
   }
 }
 
@@ -35,8 +35,8 @@ md-input-container {
 
 
 md-icon {
-  height: 8rem;
-  width: 8rem;
+  height: 11rem;
+  width: 11rem;
 }
 
 .button {
