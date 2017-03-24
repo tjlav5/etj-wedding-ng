@@ -4,34 +4,55 @@
   background-color: black;
   display: block;
   text-align: center;
+  position: relative;
+}
+
+div {
+  position: relative;
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+video {
+  position: relative;
+  width: 100%;
 }
 
 md-icon {
-  max-width: 100%;
-  width: $max-width;
-  height: $max-width / 2;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  max-width: $max-width;
+  top: 50%;
+  left: 0;
+  margin-top: -25%;
 }
 
+.video-container, md-icon {
+  animation: 14s ease-in-out alternate infinite;
+}
+  
+.video-container {
+  animation-name: opacity-bw;
+}
+md-icon {
+  animation-name: opacity;
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes opacity-bw {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

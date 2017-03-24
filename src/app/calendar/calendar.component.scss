@@ -56,3 +56,9 @@ address {
     margin-bottom: 0;
   }
 }
+
+@media (max-width: 599px) {
+  .container > div:nth-of-type(n+2) md-icon {
+    margin-top: 2rem;
+  }
+}
