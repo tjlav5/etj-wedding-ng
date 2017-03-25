@@ -5,12 +5,12 @@
   display: block;
   text-align: center;
   position: relative;
+  padding-top: 63px;
 }
 
 div {
   position: relative;
   width: 100%;
-  max-width: $max-width;
   margin: 0 auto;
 }
 
@@ -24,7 +24,7 @@ md-icon {
   position: absolute;
   width: 100%;
   max-width: $max-width;
-  top: 50%;
+  top: 0;
   left: 0;
   margin-top: -25%;
 }
@@ -41,7 +41,7 @@ md-icon {
 }
 @keyframes opacity {
   0% {
-    opacity: 0;
+    opacity: 0.001;
   }
   100% {
     opacity: 1;
@@ -53,6 +53,6 @@ md-icon {
     opacity: 1;
   }
   100% {
-    opacity: 0;
+    opacity: 0.001;
   }
 }
