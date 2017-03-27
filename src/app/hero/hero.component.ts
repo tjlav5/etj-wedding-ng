@@ -13,7 +13,6 @@ export class HeroComponent implements OnInit {
     iconRegistry.addSvgIcon('logo', sanitizer.bypassSecurityTrustResourceUrl('/assets/etj-logo.svg'));
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }

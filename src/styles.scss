@@ -114,6 +114,7 @@ a {
 .button.black {
   color: white;
   border-color: white;
+  min-width: 8rem;
 }
 
 .button.black:hover:not([disabled]),

@@ -32,9 +32,18 @@ md-icon {
 .video-container, md-icon {
   animation: 14s ease-in-out alternate infinite;
 }
-  
+
 .video-container {
   animation-name: opacity-bw;
+  background: linear-gradient(0deg,#55dcca, #1744c0);
+}
+
+video {
+  mix-blend-mode: multiply;
+}
+
+canvas {
+  width: 100%;
 }
 md-icon {
   animation-name: opacity;

@@ -53,7 +53,13 @@ h1 {
 }
 
 .direction-container {
-  padding: 2rem;
+  padding: 0 2rem 2rem;
+}
+
+.directions-label {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 14px;
 }
 
 @media (max-width: 959px) {
