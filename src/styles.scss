@@ -135,6 +135,11 @@ a {
   }
 }
 
+.mat-checkbox,
+.mat-input-container {
+  font-family: $sans-serif !important;
+}
+
 md-icon.logo g{
   animation: kaboom 2s ease alternate infinite;
   &:nth-of-type(2) {

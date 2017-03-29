@@ -16,7 +16,7 @@
         <md-input-container divider-color="accent">
           <input type="text" mdInput placeholder="Guest Name - if bringing one" [(ngModel)]="model.guest" name="guest">
         </md-input-container>
-        <md-checkbox [(ngModel)]="model.brunch" color="primary" name="brunch">Yes, I / we are interested in joining your for brunch</md-checkbox>
+        <md-checkbox [(ngModel)]="model.brunch" color="primary" name="brunch">Yes, <span *ngIf="!model.guest">I am</span><span *ngIf="model.guest">we are</span> interested in joining you for brunch</md-checkbox>
         <md-input-container>
           <textarea rows="1" mdInput placeholder="Message" [(ngModel)]="model.message" name="message">1600 Amphitheatre Pkwy</textarea>
         </md-input-container>
