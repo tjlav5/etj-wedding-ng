@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { MdIconRegistry } from '@angular/material';
+import { MdDialog, MdIconRegistry } from '@angular/material';
+import { SaveEventComponent } from '../save-event/save-event.component';
 
 @Component({
   selector: 'app-calendar',
@@ -9,7 +10,7 @@ import { MdIconRegistry } from '@angular/material';
 })
 export class CalendarComponent implements OnInit {
 
-  constructor(iconRegistry: MdIconRegistry, sanitizer: DomSanitizer) {
+  constructor(public dialog: MdDialog, iconRegistry: MdIconRegistry, sanitizer: DomSanitizer) {
     iconRegistry.addSvgIcon(
       'ring',
       sanitizer.bypassSecurityTrustResourceUrl('/assets/ico-ring.svg'));
@@ -22,6 +23,10 @@ export class CalendarComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  openSaveDialog() {
+    this.dialog.open(SaveEventComponent);
   }
 
 }

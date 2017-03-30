@@ -21,6 +21,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AccommodationsComponent } from './accommodations/accommodations.component';
 import { TrackScrollDirective } from './track-scroll.directive';
 import { RegistryComponent } from './registry/registry.component';
+import { SaveEventComponent } from './save-event/save-event.component';
 
 const appRoutes: Routes = [
   { path: 'invitation', component: InvitationComponent },
@@ -42,6 +43,7 @@ const appRoutes: Routes = [
     TrackScrollDirective,
     RegistryComponent,
     NavigationDialog,
+    SaveEventComponent,
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebase),
@@ -53,7 +55,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
-  entryComponents: [NavigationDialog],
+  entryComponents: [NavigationDialog, SaveEventComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
