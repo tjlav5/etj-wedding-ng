@@ -23,7 +23,7 @@ export class CountDownComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.eventDate = new Date('Sat, 22 Jul 2017 17:00:00 EST');
+    this.eventDate = new Date('Sat, 22 Jul 2017 17:30:00 EST');
     setInterval(() => {
       this.updateCountDown();
     }, 60);

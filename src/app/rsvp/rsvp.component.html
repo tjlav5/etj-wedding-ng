@@ -6,7 +6,7 @@
       <p>We are super-excited to be celebrating with you!<br />
       Please R.S.V.P. by <b>Saturday, June 17th, 2017</b>.</p>
 
-      <form #rsvpForm="ngForm">
+      <form #rsvpForm="ngForm" autocomplete="nope">
         <md-input-container divider-color="accent">
           <input type="text" mdInput required placeholder="Name" [(ngModel)]="model.name" name="name">
         </md-input-container>
@@ -21,8 +21,8 @@
           <textarea rows="1" mdInput placeholder="Message" [(ngModel)]="model.message" name="message">1600 Amphitheatre Pkwy</textarea>
         </md-input-container>
         <div fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="stretch center">
-          <button fxFlex="auto" (click)="onSubmitYes()" [disabled]="!rsvpForm.form.valid" class="button mint">Yes, I'm coming!</button>
-          <button fxFlex="auto" (click)="onSubmitNo()" [disabled]="!rsvpForm.form.valid" class="button mint">Cannot attend</button>
+          <button fxFlex="auto" (click)="onSubmitYes()" class="button mint">Yes, I'm coming!</button>
+          <button fxFlex="auto" (click)="onSubmitNo()" class="button mint">Cannot attend</button>
         </div>
       </form>
     </div>

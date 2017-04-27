@@ -8,7 +8,7 @@ export class TrackScrollDirective {
 
   constructor() { }
 
-  @HostListener('scroll', ['$event'])
+  //@HostListener('scroll', ['$event'])
   track(event:any) {
     this.pageYPositionChange.emit(event.target.scrollTop);
   }

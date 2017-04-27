@@ -1,15 +1,30 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ViewChild } from '@angular/core/src/metadata/di';
 import { MdDialog, MdDialogRef } from '@angular/material';
 import { NavigationComponent } from './navigation/navigation.component';
 import { DomSanitizer } from '@angular/platform-browser';
+
+interface WhatWGEventListenerArgs {
+    capture?: boolean;
+}
+
+interface WhatWGAddEventListenerArgs extends WhatWGEventListenerArgs {
+    passive?: boolean;
+    once?: boolean;
+}
+
+type WhatWGAddEventListener = (
+    type: string,
+    listener: (event:Event) => void,
+    options?: WhatWGAddEventListenerArgs
+) => void;
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
   constructor(public dialog: MdDialog, public sanitizer: DomSanitizer) {
   }
@@ -35,6 +50,17 @@ export class AppComponent {
         right: '20px'
       }
     });
+  }
+
+  ngOnInit() {
+    (window.addEventListener as WhatWGAddEventListener)('scroll', () => {
+      this.onPageYChange(window.scrollY);
+    }, { passive: true, });
+    // window.addEventListener('scroll', (e) => {
+    //   window.requestAnimationFrame(() => {
+    //     this.onPageYChange(window.scrollY);
+    //   });
+    // }, {passive: true});
   }
 
 }
